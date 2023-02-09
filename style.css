@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9fa8a3;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.links {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepagesect {
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    height: 880px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-right: 10px;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+button:hover {
+    transition: 1s ease-in-out;
+    background: #2772bd;
+}
+
+button:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.button span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.BookTicket {
+    padding-top: 50px;
+    padding-left: 20px;
+    background-image: url('Ticketbook (2).jpg');
+    background-size: cover;
+    height: 880px;
+    background-repeat: no-repeat;
+}
+
+element-group {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+input,
+select {
+    border-radius: 2px;
+    border: 2px solid #260bc0;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.submitbtn {
+    margin-top: 30px;
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: coral;
+}
+.manage{
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    height: 880px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.Managebook {
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flight{
+    padding: 10px;
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    height: 880px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.flightstatus {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkstatus {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.invoice{
+    background-color: black;
+    color: white;
+}

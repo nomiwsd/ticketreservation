@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="Logo.png" width='80px' height='100px' alt="">
+        <div class="links">
+            <a href="Bookticket.html">Book a Ticket</a>
+            <a href="Managebooking.html">Manage Booking</a>
+            <a href="FlightStatus.html">Flight Status</a>
+            <a href="index.html">Exit the Program</a>
+        </div>
+    </nav>
+    <div class="BookTicket">
+        <h3>Enter Your Information</h3>
+        <div class="element-group">
+            <label for="opt-selection">Select The Category</label>
+            <select id="opt-selection" name="opt_preference" required>
+                <option value="">Choose the Option from Given</option>
+                <option value="Oneway">One Way</option>
+                <option value="Returns">Returns</option>
+                <option value="Visit">Visit</option>
+            </select>
+            <label for="from">From:</label>
+            <select required="" name="from" ">
+            <option value="">Select a location...</option>
+            <option value=" Cambodia">Cambodia</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="Laos">Laos</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+
+            <label for="to">To:</label>
+            <select required="" name="to">
+                <option value="">Select a location...</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="Laos">Laos</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+            </select>
+            <div class="">
+
+                <label for="departure">Departure date:</label>
+                <input name="deparure" type="date" class="form-control date" id="deparure" placeholder="Select date..."
+                    required="" ">
+                  
+                    </div>
+                    <label for="Fare">Fare:</label>
+            <select required="" name="Fare">
+                <option value="">Select a Fare</option>
+                <option value="Cambodia">Cambodia ($300)</option>
+                <option value="Hong Kong">Hong Kong($400)</option>
+                <option value="India">India($450)</option>
+                <option value="Japan">Japan($200)</option>
+                <option value="Korea">Korea($150)</option>
+                <option value="Laos">Laos($170)</option>
+                <option value="Myanmar">Myanmar($350)</option>
+                <option value="Singapore">Singapore($240)</option>
+                <option value="Thailand">Thailand($120)</option>
+                <option value="Vietnam">Vietnam($340)</option>
+            </select>
+            <button  class='submitbtn' type="submit">Book the Ticket</button>
+        </div>
+        <table>
+            <tr>
+              <th>Category</th>
+              <th>From</th>
+              <th>To</th>
+              <th>Departure Date</th>
+              <th>Fare</th>
+            </tr>
+            <tr>
+              <td>One Way</td>
+              <td>Vietnam</td>
+              <td>Thailand</td>
+              <td>23-01-2023</td>
+              <td>Thailand (120$)</td>
+            </tr>
+           
+          </table>
+    </div>
+</body>
+
+</html>
